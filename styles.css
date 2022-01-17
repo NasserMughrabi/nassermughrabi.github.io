@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header styler */
+.ContactHeader {
+  font-family: Poppins;
+  font-size: 15px;
+  height: 30px;
+  background-color: #ffc700;
+}
+.textPos {
+  position: relative;
+  left: 15px;
+  top: 6.4px;
+}
+
+/* left half of page style -------------------------------------------- */
+.LeftHalf {
+  width: 35%;
+  height: 1500px;
+  background-color: #072737;
+}
+
+/* Name */
+.Nasser {
+  font-family: Poppins;
+  font-size: 37.4px;
+  color: #ffc700;
+  position: relative;
+  left: 35px;
+}
+.Mughrabi {
+  font-family: Poppins;
+  font-size: 37.4px;
+  color: white;
+  position: relative;
+  left: 35px;
+  top: -11px;
+}
+
+/* Major */
+.Software {
+  font-family: Poppins;
+  font-size: 19.5px;
+  color: black;
+  background-color: #ffc700;
+  width: 220px;
+  position: relative;
+  left: 35px;
+}
+
+/* languages section */
+.langTitle {
+  font-family: Poppins;
+  font-size: 18.7px;
+  color: #ffc700;
+  position: relative;
+  left: 35px;
+  top: 15px;
+}
+.line {
+  width: 221px;
+  position: relative;
+  top: 12px;
+  left: 35px;
+}
+.languages {
+  font-family: Arial;
+  font-size: 12.8px;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+
+/* languages bars */
+.Csharp {
+  color: #ffc700;
+  background-color: #ffc700;
+  width: 121px;
+  height: 14px;
+  position: relative;
+  top: -120px;
+  left: 135px;
+}
+.Java {
+  color: #ffc700;
+  background: linear-gradient(to right, #ffc700 75%, white 25%);
+  width: 121px;
+  height: 14px;
+  position: relative;
+  top: -105px;
+  left: 135px;
+}
+.Cpp {
+  color: #ffc700;
+  background: linear-gradient(to right, #ffc700 75%, white 25%);
+  width: 121px;
+  height: 14px;
+  position: relative;
+  top: -89px;
+  left: 135px;
+}
+.HTML {
+  color: #ffc700;
+  background: linear-gradient(to right, #ffc700 60%, white 60%);
+  width: 121px;
+  height: 14px;
+  position: relative;
+  top: -72px;
+  left: 135px;
+}
+.CSS {
+  color: #ffc700;
+  background: linear-gradient(to right, #ffc700 60%, white 60%);
+  width: 121px;
+  height: 14px;
+  position: relative;
+  top: -57px;
+  left: 135px;
+}
+
+/* education section */
+.EduTitle {
+  font-family: Poppins;
+  font-size: 18.7px;
+  color: #ffc700;
+  position: relative;
+  left: 35px;
+  top: -38px;
+}
+.Eduline {
+  width: 221px;
+  position: relative;
+  top: -41px;
+  left: 35px;
+}
+
+.education {
+  font-family: Arial;
+  font-size: 12.8px;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: -44px;
+}
+
+/* soft skills section */
+.softTitle {
+  font-family: Poppins;
+  font-size: 18.7px;
+  color: #ffc700;
+  position: relative;
+  left: 35px;
+  top: -20px;
+}
+.softline {
+  width: 221px;
+  position: relative;
+  top: -23px;
+  left: 35px;
+}
+
+.soft {
+  font-family: Arial;
+  font-size: 12.8px;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: -23px;
+}
+
+/* hard skills section */
+.hardTitle {
+  font-family: Poppins;
+  font-size: 18.7px;
+  color: #ffc700;
+  position: relative;
+  left: 35px;
+  top: -5px;
+}
+.hardline {
+  width: 221px;
+  position: relative;
+  top: -7px;
+  left: 35px;
+}
+
+.hard {
+  font-family: Arial;
+  font-size: 12.8px;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: -7px;
+}
+
+/* right half of page style--------------------------------------------*/
+.RightHalf {
+  position: relative;
+  height: 1500px;
+  width: 35%;
+  left: 30%;
+  bottom: 1500px;
+  background: #949396;
+}
+
+/* projects */
+.projects {
+  font-family: Poppins;
+  position: relative;
+  left: 55px;
+}
+.projline {
+  position: relative;
+  left: 55px;
+  width: 221px;
+  background-color: black;
+  top: 0.2%;
+}
+/* tank game */
+.tanktitle {
+  font-family: Poppins;
+  font-size: 13.7px;
+  width: 30%;
+  background-color: #ffc700;
+  position: relative;
+  left: 55px;
+  top: 1%;
+}
+.tankdef {
+  position: relative;
+  left: 55px;
+  top: 1.5%;
+}
+.tanklist {
+  position: relative;
+  left: 75px;
+  top: 2%;
+}
+/* spreadsheet */
+.spreadtitle {
+  font-family: Poppins;
+  font-size: 13.7px;
+  width: 30%;
+  background-color: #ffc700;
+  position: relative;
+  left: 55px;
+  top: 3%;
+}
+.spreaddef {
+  position: relative;
+  left: 55px;
+  top: 3.5%;
+}
+.spreadlist {
+  position: relative;
+  left: 75px;
+  top: 4%;
+}
+
+.exptitle {
+  font-family: Poppins;
+  position: relative;
+  left: 55px;
+  top: 5%;
+}
+.expline {
+  position: relative;
+  left: 55px;
+  width: 221px;
+  color: black;
+  top: 5%;
+}
+
+.expperiod1 {
+  font-family: Poppins;
+  font-size: 13.7px;
+  width: 35%;
+  background-color: #ffc700;
+  position: relative;
+  left: 55px;
+  top: 5.5%;
+}
+.snowexp1 {
+  position: relative;
+  left: 55px;
+  top: 6%;
+}
+.computerexp {
+  position: relative;
+  left: 55px;
+  top: 7%;
+}
+.computerexplist {
+  position: relative;
+  left: 75px;
+  top: 7.5%;
+}
+
+.expperiod2 {
+  font-family: Poppins;
+  font-size: 13.7px;
+  width: 35%;
+  background-color: #ffc700;
+  position: relative;
+  left: 55px;
+  top: 8.5%;
+}
+.snowexp2 {
+  position: relative;
+  left: 55px;
+  top: 9%;
+}
+.taexp {
+  position: relative;
+  left: 55px;
+  top: 9.5%;
+}
+.taexplist {
+  position: relative;
+  left: 75px;
+  top: 10%;
+}
+
+
+
+/* Animation */
+/* The animation code */
+@keyframes example {
+  0%   {background-image: url("../Images/01s.jpg");}
+  25%  {background-image: url("../Images/01s824.jpg");}
+  50%  {background-image: url("../Images/01s624.jpg");} 
+  75%   {background-image: url("../Images/01s424.jpg");}
+  100%   {background-image: url("../Images/01s224.jpg");}
+  100%   {background-image: url("../Images/01s.jpg");}
+
+}
+
+/* The element to apply the animation to */
+.thirdhalf {
+  position: relative;
+  height: 1500px;
+  width: 40%;
+  left: 62%;
+  bottom: 3000px;
+  animation-name: example;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+} 
+
+/* CSS Rules */
+/* Selectors -- we will be selecting things */
+/* decleration block */
+/* decleration */
+/* property */
+/* value */
