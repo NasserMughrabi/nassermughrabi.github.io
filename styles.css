@@ -333,12 +333,24 @@
 /* Animation */
 /* The animation code */
 @keyframes example {
-  0%   {background-image: url("../Images/01s.jpg");}
-  25%  {background-image: url("../Images/01s824.jpg");}
-  50%  {background-image: url("../Images/01s624.jpg");} 
-  75%   {background-image: url("../Images/01s424.jpg");}
-  100%   {background-image: url("../Images/01s224.jpg");}
-  100%   {background-image: url("../Images/01s.jpg");}
+  0% {
+    background-image: url("../Images/01s.jpg");
+  }
+  25% {
+    background-image: url("../Images/01s824.jpg");
+  }
+  50% {
+    background-image: url("../Images/01s.jpg");
+  }
+  75% {
+    background-image: url("../Images/01s824.jpg");
+  }
+  100% {
+    background-image: url("../Images/01s824.jpg");
+  }
+  100% {
+    background-image: url("../Images/01s.jpg");
+  }
 
 }
 
@@ -351,7 +363,7 @@
   bottom: 3000px;
   animation-name: example;
   animation-timing-function: linear;
-  animation-duration: 15s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 } 
 
